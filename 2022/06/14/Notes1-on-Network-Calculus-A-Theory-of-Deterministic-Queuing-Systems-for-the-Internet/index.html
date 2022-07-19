@@ -6,15 +6,15 @@
   
   <title>Notes1 on Network Calculus: A Theory of Deterministic Queuing Systems for the Internet | Han&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="大家好！我是韩洋！欢迎进入我的个人主页！开工了，加油！奋斗出一个好的未来！’$\pi$’  \frac{dR}{dt}&#x3D;r(t)">
+  <meta name="description" content="大家好！我是韩洋！欢迎进入我的个人主页！开工了，加油！奋斗出一个好的未来！’$\pi$’$\frac{dR}{dt}&#x3D;r(t)$    \begin{split}   \frac{\partial{\mathcal{E}}}{\partial{x_l}} &amp; &#x3D;    \frac{\partial{\mathcal{E}}}{\partial{x_L}}\frac{\partial{x_L}}{\">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Notes1 on Network Calculus: A Theory of Deterministic Queuing Systems for the Internet">
 <meta property="og:url" content="http://example.com/2022/06/14/Notes1-on-Network-Calculus-A-Theory-of-Deterministic-Queuing-Systems-for-the-Internet/index.html">
 <meta property="og:site_name" content="Han&#39;s Blog">
-<meta property="og:description" content="大家好！我是韩洋！欢迎进入我的个人主页！开工了，加油！奋斗出一个好的未来！’$\pi$’  \frac{dR}{dt}&#x3D;r(t)">
+<meta property="og:description" content="大家好！我是韩洋！欢迎进入我的个人主页！开工了，加油！奋斗出一个好的未来！’$\pi$’$\frac{dR}{dt}&#x3D;r(t)$    \begin{split}   \frac{\partial{\mathcal{E}}}{\partial{x_l}} &amp; &#x3D;    \frac{\partial{\mathcal{E}}}{\partial{x_L}}\frac{\partial{x_L}}{\">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-06-14T12:30:52.000Z">
-<meta property="article:modified_time" content="2022-07-19T03:29:53.820Z">
+<meta property="article:modified_time" content="2022-07-19T04:11:49.489Z">
 <meta property="article:author" content="Han Yang">
 <meta name="twitter:card" content="summary">
   
@@ -36,11 +36,7 @@
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
 
   
-<!-- hexo injector head_end start -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0"></head>
+<meta name="generator" content="Hexo 6.2.0"></head>
 
 <body>
   <div id="container">
@@ -99,13 +95,18 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>大家好！我是韩洋！欢迎进入我的个人主页！开工了，加油！奋斗出一个好的未来！’$\pi$’</p>
+        <p>大家好！我是韩洋！欢迎进入我的个人主页！开工了，加油！奋斗出一个好的未来！’$\pi$’<br>$\frac{dR}{dt}=r(t)$</p>
 <script type="math/tex; mode=display">
-\frac{dR}{dt}=r(t)</script>
+  \begin{split}
+  \frac{\partial{\mathcal{E}}}{\partial{x_l}} & = 
+  \frac{\partial{\mathcal{E}}}{\partial{x_L}}\frac{\partial{x_L}}{\partial{x_l}}\\\\
+  & = \frac{\partial{\mathcal{E}}}{\partial{x_L}}\Big(1+\frac{\partial{}}{\partial{x_l}}\sum_{i=l}^{L-1}   
+  \mathcal{F}(x_i,\mathcal{W}_i)\Big)
+  \end{split}</script>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/06/14/Notes1-on-Network-Calculus-A-Theory-of-Deterministic-Queuing-Systems-for-the-Internet/" data-id="cl5rmb1vi000134u2dx9f1a6r" data-title="Notes1 on Network Calculus: A Theory of Deterministic Queuing Systems for the Internet" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/06/14/Notes1-on-Network-Calculus-A-Theory-of-Deterministic-Queuing-Systems-for-the-Internet/" data-id="cl5rnq6kt0003o0u27ghi80v0" data-title="Notes1 on Network Calculus: A Theory of Deterministic Queuing Systems for the Internet" class="article-share-link">Share</a>
       
       
       
@@ -231,5 +232,20 @@
 
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>
