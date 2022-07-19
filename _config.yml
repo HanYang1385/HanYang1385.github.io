@@ -106,3 +106,28 @@ deploy:
   type: git
   repository: git@github.com:HanYang1385/HanYang1385.github.io.git
   branch: main
+
+
+
+#math:
+#  engine: 'mathjax' # or 'katex'
+#  mathjax:
+#    src: cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#    config:
+#      # MathJax config
+#  katex:
+#    css: custom_css_source
+#    js: custom_js_source # not used
+#    config:
+#      # KaTeX config
+
+
+
+# MathJax Support
+mathjax:
+  enable: true
+#  per_page: true
+#  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#    src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML   
+
+
